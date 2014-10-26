@@ -1,0 +1,307 @@
+Last login: Sat Oct 25 11:32:02 on ttys000
+Bens-MacBook-Pro:~ benkelley$ cd
+Bens-MacBook-Pro:~ benkelley$ ls
+Applications	Downloads	Music		Samsung
+Desktop		Library		Pictures	datascience
+Documents	Movies		Public
+Bens-MacBook-Pro:~ benkelley$ ls -a
+.			.cups			Downloads
+..			.gitconfig		Library
+.CFUserTextEncoding	.rstudio-desktop	Movies
+.DS_Store		.subversion		Music
+.R			.viminfo		Pictures
+.Rhistory		Applications		Public
+.Trash			Desktop			Samsung
+.bash_history		Documents		datascience
+Bens-MacBook-Pro:~ benkelley$ ls -A
+.CFUserTextEncoding	.rstudio-desktop	Movies
+.DS_Store		.subversion		Music
+.R			.viminfo		Pictures
+.Rhistory		Applications		Public
+.Trash			Desktop			Samsung
+.bash_history		Documents		datascience
+.cups			Downloads
+.gitconfig		Library
+Bens-MacBook-Pro:~ benkelley$ clr
+-bash: clr: command not found
+Bens-MacBook-Pro:~ benkelley$ cd datascience
+Bens-MacBook-Pro:datascience benkelley$ ls
+datasciencecoursera
+Bens-MacBook-Pro:datascience benkelley$ ls -A
+.DS_Store		.git			datasciencecoursera
+Bens-MacBook-Pro:datascience benkelley$ ls
+datasciencecoursera
+Bens-MacBook-Pro:datascience benkelley$ man ls
+Bens-MacBook-Pro:datascience benkelley$  
+Bens-MacBook-Pro:datascience benkelley$ 
+Bens-MacBook-Pro:datascience benkelley$ ls -al
+total 16
+drwxr-xr-x   5 benkelley  staff   170 Oct 25 11:11 .
+drwxr-xr-x+ 24 benkelley  staff   816 Oct 25 11:31 ..
+-rw-r--r--@  1 benkelley  staff  6148 Jun 22 21:22 .DS_Store
+drwxr-xr-x  13 benkelley  staff   442 Jun 22 10:34 .git
+drwxr-xr-x   3 benkelley  staff   102 Oct 25 11:11 datasciencecoursera
+Bens-MacBook-Pro:datascience benkelley$ ls,-l
+-bash: ls,-l: command not found
+Bens-MacBook-Pro:datascience benkelley$ ls-l
+-bash: ls-l: command not found
+Bens-MacBook-Pro:datascience benkelley$ ls -l
+total 0
+drwxr-xr-x  3 benkelley  staff  102 Oct 25 11:11 datasciencecoursera
+Bens-MacBook-Pro:datascience benkelley$ ls
+datasciencecoursera
+Bens-MacBook-Pro:datascience benkelley$ ls --
+datasciencecoursera
+Bens-MacBook-Pro:datascience benkelley$ \/bin/ls -l
+total 0
+drwxr-xr-x  3 benkelley  staff  102 Oct 25 11:11 datasciencecoursera
+Bens-MacBook-Pro:datascience benkelley$ ls -A
+.DS_Store		.git			datasciencecoursera
+Bens-MacBook-Pro:datascience benkelley$ ls -A
+.DS_Store		.git			datasciencecoursera
+Bens-MacBook-Pro:datascience benkelley$ cd
+Bens-MacBook-Pro:~ benkelley$ 
+Bens-MacBook-Pro:~ benkelley$ 
+Bens-MacBook-Pro:~ benkelley$ 
+Bens-MacBook-Pro:~ benkelley$ 
+Bens-MacBook-Pro:~ benkelley$ 
+Bens-MacBook-Pro:~ benkelley$ 
+Bens-MacBook-Pro:~ benkelley$ cd
+Bens-MacBook-Pro:~ benkelley$ 
+Bens-MacBook-Pro:~ benkelley$ ls
+Applications	Downloads	Music		Samsung
+Desktop		Library		Pictures	datascience
+Documents	Movies		Public
+Bens-MacBook-Pro:~ benkelley$ cd datascience
+Bens-MacBook-Pro:datascience benkelley$ ls
+datasciencecoursera
+Bens-MacBook-Pro:datascience benkelley$ pwd
+/Users/benkelley/datascience
+Bens-MacBook-Pro:datascience benkelley$ ls HelloWorld.md
+ls: HelloWorld.md: No such file or directory
+Bens-MacBook-Pro:datascience benkelley$ cd datasciencecoursera
+Bens-MacBook-Pro:datasciencecoursera benkelley$ pwd
+/Users/benkelley/datascience/datasciencecoursera
+Bens-MacBook-Pro:datasciencecoursera benkelley$ ls
+Bens-MacBook-Pro:datasciencecoursera benkelley$ ls -a
+.	..	.git
+Bens-MacBook-Pro:datasciencecoursera benkelley$ cd ..
+Bens-MacBook-Pro:datascience benkelley$ pwd
+/Users/benkelley/datascience
+Bens-MacBook-Pro:datascience benkelley$ ls -a
+.			.DS_Store		datasciencecoursera
+..			.git
+Bens-MacBook-Pro:datascience benkelley$ pwd
+/Users/benkelley/datascience
+Bens-MacBook-Pro:datascience benkelley$ cd datasciencecoursera
+Bens-MacBook-Pro:datasciencecoursera benkelley$ pwd
+/Users/benkelley/datascience/datasciencecoursera
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git status
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git log
+fatal: bad default revision 'HEAD'
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git branch
+Bens-MacBook-Pro:datasciencecoursera benkelley$ cd ..
+Bens-MacBook-Pro:datascience benkelley$ pwd
+/Users/benkelley/datascience
+Bens-MacBook-Pro:datascience benkelley$ cd ..
+Bens-MacBook-Pro:~ benkelley$ pwd
+/Users/benkelley
+Bens-MacBook-Pro:~ benkelley$ mkdir ~/datasciencecoursera
+Bens-MacBook-Pro:~ benkelley$ ls
+Applications		Library			Public
+Desktop			Movies			Samsung
+Documents		Music			datascience
+Downloads		Pictures		datasciencecoursera
+Bens-MacBook-Pro:~ benkelley$ cd ~/datasciencecoursera
+Bens-MacBook-Pro:datasciencecoursera benkelley$ pwd
+/Users/benkelley/datasciencecoursera
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git init
+Initialized empty Git repository in /Users/benkelley/datasciencecoursera/.git/
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git remote add origin https://github.com/blkelley/datasciencecoursera.git
+Bens-MacBook-Pro:datasciencecoursera benkelley$  pwd
+/Users/benkelley/datasciencecoursera
+Bens-MacBook-Pro:datasciencecoursera benkelley$ ls
+HelloWorld.Rmd
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git add -A
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git commit -m "Hello World"
+[master (root-commit) bfe0f23] Hello World
+ 1 file changed, 5 insertions(+)
+ create mode 100644 HelloWorld.Rmd
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/blkelley/datasciencecoursera.git/'
+Bens-MacBook-Pro:datasciencecoursera benkelley$ ls
+HelloWorld.Rmd
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git status
+On branch master
+nothing to commit, working directory clean
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git add HelloWorld.Rmd
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git status
+On branch master
+nothing to commit, working directory clean
+Bens-MacBook-Pro:datasciencecoursera benkelley$ touch HelloWorld.Rmd
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git status
+On branch master
+nothing to commit, working directory clean
+Bens-MacBook-Pro:datasciencecoursera benkelley$ ls -al
+total 8
+drwxr-xr-x   4 benkelley  staff  136 Oct 26 08:48 .
+drwxr-xr-x+ 25 benkelley  staff  850 Oct 26 08:37 ..
+drwxr-xr-x  13 benkelley  staff  442 Oct 26 08:55 .git
+-rw-r--r--   1 benkelley  staff   76 Oct 26 08:53 HelloWorld.Rmd
+Bens-MacBook-Pro:datasciencecoursera benkelley$ add -A
+-bash: add: command not found
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git add -A
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git stauts
+git: 'stauts' is not a git command. See 'git --help'.
+
+Did you mean this?
+	status
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git status
+On branch master
+nothing to commit, working directory clean
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git commit -m "new file"
+On branch master
+nothing to commit, working directory clean
+Bens-MacBook-Pro:datasciencecoursera benkelley$ ls -al
+total 8
+drwxr-xr-x   4 benkelley  staff  136 Oct 26 08:48 .
+drwxr-xr-x+ 25 benkelley  staff  850 Oct 26 08:37 ..
+drwxr-xr-x  13 benkelley  staff  442 Oct 26 08:57 .git
+-rw-r--r--   1 benkelley  staff   76 Oct 26 08:53 HelloWorld.Rmd
+Bens-MacBook-Pro:datasciencecoursera benkelley$ touch HelloWorld.Rmd
+Bens-MacBook-Pro:datasciencecoursera benkelley$ ls -al
+total 8
+drwxr-xr-x   4 benkelley  staff  136 Oct 26 08:48 .
+drwxr-xr-x+ 25 benkelley  staff  850 Oct 26 08:37 ..
+drwxr-xr-x  13 benkelley  staff  442 Oct 26 08:57 .git
+-rw-r--r--   1 benkelley  staff   76 Oct 26 08:58 HelloWorld.Rmd
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git status
+On branch master
+nothing to commit, working directory clean
+Bens-MacBook-Pro:datasciencecoursera benkelley$ type HelloWorld.Rmd
+-bash: type: HelloWorld.Rmd: not found
+Bens-MacBook-Pro:datasciencecoursera benkelley$ ls -al
+total 16
+drwxr-xr-x   5 benkelley  staff  170 Oct 26 08:59 .
+drwxr-xr-x+ 25 benkelley  staff  850 Oct 26 08:37 ..
+drwxr-xr-x  13 benkelley  staff  442 Oct 26 08:58 .git
+-rw-r--r--   1 benkelley  staff   76 Oct 26 08:58 HelloWorld.Rmd
+-rw-r--r--   1 benkelley  staff   98 Oct 26 08:59 HelloWorld.md
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	HelloWorld.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git add HelloWorld.md
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   HelloWorld.md
+
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git commit -m "New file"
+[master d3db190] New file
+ 1 file changed, 4 insertions(+)
+ create mode 100644 HelloWorld.md
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': blkelley
+Password for 'https://blkelley@github.com': 
+To https://github.com/blkelley/datasciencecoursera.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/blkelley/datasciencecoursera.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git pull README.md
+fatal: 'README.md' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Bens-MacBook-Pro:datasciencecoursera benkelley$ git pull https://github.com/blkelley/datasciencecoursera
+warning: no common commits
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (3/3), done.
+From https://github.com/blkelley/datasciencecoursera
+ * branch            HEAD       -> FETCH_HEAD
+
+Merge https://github.com/blkelley/datasciencecoursera
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+recording
